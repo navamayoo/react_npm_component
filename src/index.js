@@ -1,17 +1,16 @@
-import React from 'react'
+import React from "react";
 import Button from "@mui/material/Button";
 
 export default function index_component() {
-
- const handleSecondary=()=>{
-alert("You are click Secondary Button");
-  }
-   const handleSuccess = () => {
+  const handleSecondary = () => {
+    alert("You are click Secondary Button");
+  };
+  const handleSuccess = () => {
     alert("You are click Success Button");
-   };
-      const handleError = () => {
-        alert("You are click Error Button");
-      };
+  };
+  const handleError = () => {
+    alert("You are click Error Button");
+  };
 
   return (
     <div>
